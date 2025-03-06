@@ -1,12 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
-
+import Header from "./components/Header";
+import Body from "./components/Body";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App w-[1340px] h-[3016px]">
       <Header />
+      <Body />
     </div>
   );
 }
