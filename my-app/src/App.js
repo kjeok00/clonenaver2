@@ -5,7 +5,7 @@ import Body from "./components/Body";
 function App() {
   return (
     // <div className="App w-[1340px] h-[3016px] ">
-    <div className='container'>
+    <div className='container min-w-[1280px]'>
       <Header />
       <Body />
     </div>

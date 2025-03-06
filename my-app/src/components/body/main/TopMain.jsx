@@ -5,16 +5,16 @@ const TopMain = () => {
     return (
         <div className="flex flex-cold flex-col space-y-4 p-4 w-full border-2 rounded-xl">
             {/*카테고리*/}
-            <div className="flex justify-start space-x-4 text-gray-500 font-semibold">
+            <div className="flex justify-start space-x-4 text-gray-400 font-semibold">
                 <button>뉴스스텐드</button>
                 <button>엔터</button>
-                <button>스포츠</button>
+                <button className="text-black font-bold">스포츠</button>
                 <button>경제</button>
                 <button>쇼핑투데이</button>
             </div>
 
             {/*베너*/}
-            <div className="flex justify-between text-blck font-normal bg-red-100 rounded-md p-4">
+            <div className="flex justify-between text-black text-sm font-normal bg-red-100 rounded-md p-4">
                 <div className="space-x-4">
                     <button>야구</button>
                     <button>헤외축구</button>
