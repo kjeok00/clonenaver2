@@ -11,15 +11,15 @@ const Weather = () => {
                 </div>
                 <span className="text-gray-500 font-semibold">제주시 이도일동</span>
             </div>
-            <div className="flex justify-center items-center space-x-4">
+            <div className="flex justify-center items-center space-x-4 pt-2">
                 <button>
                     <img
-                        src={sample} alt="weather" className=""
+                        src={sample} alt="weather" className="rounded-xl"
                     />
                 </button>
                 <button>
                     <img
-                        src={sample} alt="weather" className=""
+                        src={sample} alt="weather" className="rounded-xl"
                     />
                 </button>
             </div>

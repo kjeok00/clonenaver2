@@ -11,10 +11,11 @@ const Stock = () => {
                 </div>
                 <span className="text-gray-500 font-semibold">제주시 이도일동</span>
             </div>
+            
             <div className="flex justify-center items-center space-x-4">
-                <button className="w-1/2">
+                <button className="w-1/2 pt-2">
                     <img
-                        src={sample} alt="stock" className=""
+                        src={sample} alt="stock" className="rounded-xl"
                     />
                 </button>
                 <div className="flex flex-col space-y-2 w-1/2">
