@@ -1,8 +1,8 @@
-import react from "react";
+import React from "react";
 
 const Header = () => {
     return (
-        <div className="mx-[30px] flex flex-col w-full justify-center items-center py-2">
+        <div className="flex flex-col w-full justify-center items-center pt-2 pb-20">
             {/*바로가기*/}
             <div className="flex justify-between w-full">
                 <div className="space-x-6">

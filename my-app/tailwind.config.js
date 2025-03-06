@@ -4,7 +4,18 @@ export default {
     "./src/**/*.{js,jsx,ts,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens : {
+        DEFAULT : '1280px'
+      }
+    },
+    container: {
+      center: true,
+      screens : {
+       DEFAULT : '1280px'
+      },
+      padding : '2rem'
+    },
   },
   plugins: [],
 };

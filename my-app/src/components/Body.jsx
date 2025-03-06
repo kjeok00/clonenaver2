@@ -4,7 +4,7 @@ import SideApp from "./body/side/SideApp";
 
 const Body = () => {
     return (
-        <div className="flex justify-center w-full items-center">
+        <div className="flex justify-center w-full space-x-4">
             <MainApp />
             <SideApp />
         </div>
