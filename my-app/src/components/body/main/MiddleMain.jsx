@@ -9,7 +9,7 @@ const MiddleMain = () => {
         "눈에 안보이던데 녹물이 나오네?!",
         "눈에 안보이던데 녹물이 나오네?!",
     ];
-    
+
     return (
         <div className="flex flex-col space-y-4 p-4 w-full border-2 rounded-xl">
             {/*카테고리*/}
@@ -78,18 +78,18 @@ const MiddleMain = () => {
                 {/*상품리스트*/}
                 <div className="flex flex-col w-2/3 rounded-xl text-sm">
                     <div className="flex flex-col rounded-xl text-sm space-y-4">
-                    <div className="flex flex-col space-y-2">
-    {[...Array(2)].map((_, rowIndex) => (
-        <div key={rowIndex} className="flex justify-between space-x-2 w-full">
-            {items.map((text, index) => (
-                <button key={index} className="flex flex-col items-center flex-1 min-w-0 outline-none border-none bg-transparent">
-                    <img src={sample} alt="sample" className="rounded-xl w-full" />
-                    <p className="line-clamp-2 text-center">{text}</p>
-                </button>
-            ))}
-        </div>
-    ))}
-</div>
+                        <div className="flex flex-col space-y-2">
+                            {[...Array(2)].map((_, rowIndex) => (
+                                <div key={rowIndex} className="flex justify-between space-x-2 w-full">
+                                    {items.map((text, index) => (
+                                        <button key={index} className="flex flex-col items-center flex-1 min-w-0 outline-none border-none bg-transparent">
+                                            <img src={sample} alt="sample" className="rounded-xl w-full" />
+                                            <p className="line-clamp-2 text-center">{text}</p>
+                                        </button>
+                                    ))}
+                                </div>
+                            ))}
+                        </div>
                     </div>
                 </div>
             </div>

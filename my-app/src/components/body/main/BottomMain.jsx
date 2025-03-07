@@ -39,14 +39,14 @@ const BottomMain = () => {
             </div>
 
             {/* 웹툰 구분 */}
-            <div className="flex justify-start items-center bg-gray-100 rounded-md p-2 gap-2 text-sm font-medium">
-                <button>웹툰홈</button>
+            <div className="flex justify-start items-center bg-gray-100 rounded-md p-2 gap-2 text-sm font-normal">
+                <button className="font-bold">웹툰홈</button>
                 <button>요일별웹툰</button>
                 <button>베스트도전</button>
-                <button>웹소설홈</button>
+                <button className="font-bold">웹소설홈</button>
                 <button>시리즈에디션</button>
                 <button>베스트리그</button>
-                <button>시리즈홈</button>
+                <button className="font-bold">시리즈홈</button>
                 <button>웹소설</button>
                 <button>만화</button>
             </div>
@@ -135,7 +135,11 @@ const BottomMain = () => {
                 </div>
             </div>
 
-            <button>펼쳐보기 +</button>
+
+            <button className="flex justify-center items-center gap-1">
+                <div className="font-bold text-black">펼쳐보기</div>
+                <div className="text-green-500 font-bold">+</div>
+            </button>
         </div>
     );
 };
